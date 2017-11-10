@@ -1,0 +1,5 @@
+﻿enable-migrations -ContextTypeName S00153960Week6Lab2.Models.ClubModels.DbContext -migrationsDirectory Migrations\ClubmodelMigraions 
+
+add-migration -ConfigurationTypeName S00153960Week6Lab2.Migrations.ClubModelMigrations.Configuration(wrong? getting error when putting through package manager console)
+
+update-database  -ConfigurationTypeName S00153960Week6Lab2.Migrations.ClubModelMigrations.Configuration
